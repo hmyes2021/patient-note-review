@@ -1,0 +1,71 @@
+{
+  "_comment": "Researcher-only. Never shown to participants. A sentence error counts as FOUND when the participant marks that sentence with one of foundWhen. An omission counts as found when there is a 'missing' flag on its section (or on any sentence in it), or a 'missing' flag anywhere whose text contains one of keywords. 'unclear' on the target counts as NOTICED.",
+  "errors": [
+    {
+      "id": "E1",
+      "type": "omission",
+      "label": "Omission: new foot tingling",
+      "target": { "sectionId": "told" },
+      "foundWhen": ["missing"],
+      "keywords": ["tingl", "numb", "foot", "feet", "toe", "pins"],
+      "whatIsWrong": "The note leaves out the new tingling in her left foot and toes.",
+      "whatWasSaid": "For about two weeks my left foot has been tingling, mostly in the toes.",
+      "transcriptTurns": ["t14", "t16"]
+    },
+    {
+      "id": "E2",
+      "type": "hallucination",
+      "label": "Hallucination: past MRI",
+      "target": { "sentenceId": "s13" },
+      "foundWhen": ["wrong", "missing"],
+      "whatIsWrong": "No past MRI was discussed. Dr. Lee only said the Spine Center may want an MRI.",
+      "whatWasSaid": "They may want an MRI.",
+      "transcriptTurns": ["t29"]
+    },
+    {
+      "id": "E3",
+      "type": "misattribution",
+      "label": "Misattribution: heating pad",
+      "target": { "sentenceId": "s7" },
+      "foundWhen": ["wrong", "missing"],
+      "whatIsWrong": "Dr. Lee suggested the heating pad and stretching. Maria said she has not tried them.",
+      "whatWasSaid": "No, I haven't. I can try it.",
+      "transcriptTurns": ["t11", "t12"]
+    },
+    {
+      "id": "E4",
+      "type": "wrong-dose",
+      "label": "Wrong dose: gabapentin",
+      "target": { "sentenceId": "s15" },
+      "foundWhen": ["wrong", "missing"],
+      "whatIsWrong": "Only the bedtime dose goes up to 600 mg. Morning and afternoon stay at 300 mg.",
+      "whatWasSaid": "Raise your bedtime gabapentin to 600 milligrams. Keep taking 300 in the morning and afternoon.",
+      "transcriptTurns": ["t27"]
+    },
+    {
+      "id": "E5",
+      "type": "wrong-side",
+      "label": "Wrong side: right leg",
+      "target": { "sentenceId": "s4" },
+      "foundWhen": ["wrong", "missing"],
+      "whatIsWrong": "The pain goes down her left leg, not her right.",
+      "whatWasSaid": "It's going down my left leg more.",
+      "transcriptTurns": ["t2", "t8"]
+    },
+    {
+      "id": "E6",
+      "type": "softened",
+      "label": "Softened pain: dull ache, 4/10",
+      "target": { "sentenceId": "s3" },
+      "foundWhen": ["wrong", "missing"],
+      "whatIsWrong": "She said about 6 most days and 8 on bad days, sharp and stabbing, not a dull ache.",
+      "whatWasSaid": "Most days it's about a 6. On bad days it's an 8. It's a sharp, stabbing pain, not just an ache.",
+      "transcriptTurns": ["t4"]
+    }
+  ],
+  "lowConfidenceCorrect": [
+    { "sentenceId": "s9", "note": "Correct. She said six weeks, maybe seven." },
+    { "sentenceId": "s17", "note": "Correct. Tylenol in the evening, two or three times a week." },
+    { "sentenceId": "s19", "note": "Correct. Referral to Dr. Patel; an MRI may be ordered." }
+  ]
+}

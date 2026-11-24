@@ -1,0 +1,11 @@
+{
+  "_comment": "All people, places and dates are fictional. Edit freely; the app reads these values at build time.",
+  "portalName": "Riverbend Health",
+  "clinic": "Riverbend Pain Management Clinic",
+  "clinician": { "name": "Dr. Lee", "role": "Pain management" },
+  "patient": { "name": "Maria Santos", "firstName": "Maria", "age": 52 },
+  "visitDate": "November 18, 2026",
+  "reviewDeadline": "November 25, 2026",
+  "estimatedMinutes": 5,
+  "prototypeNotice": "Research prototype. All people and health information are fictional."
+}

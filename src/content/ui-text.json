@@ -1,0 +1,122 @@
+{
+  "_comment": "All patient-facing and clinician-facing wording. Keep patient text at about a 6th-8th grade reading level. {clinician}, {visitDate}, {deadline}, {minutes} and {count} are filled in by the app.",
+  "welcome": {
+    "inboxHeading": "Messages",
+    "from": "From {clinician}",
+    "subject": "Your visit note is ready to check",
+    "body": [
+      "An AI tool listened to your visit on {visitDate} and wrote a draft of your visit note. {clinician} looked it over.",
+      "Before it goes into your medical record, you can check it. It takes about {minutes} minutes. This is your choice."
+    ],
+    "deadline": "{clinician} will finish the note on {deadline}.",
+    "start": "Review my note",
+    "continue": "Continue my review",
+    "later": "Remind me later",
+    "skip": "Skip. I don't want to review it.",
+    "alreadySent": "You sent your notes to {clinician}. Thank you.",
+    "viewNote": "Read my note again"
+  },
+  "doneForNow": {
+    "laterTitle": "Okay, we'll remind you later",
+    "laterBody": "Your answers so far are saved on this device. You can come back any time before {deadline}.",
+    "skipTitle": "No problem",
+    "skipBody": "{clinician} will finish the note as written. If you change your mind, you can still review it before {deadline}.",
+    "back": "Back to messages"
+  },
+  "review": {
+    "title": "Your visit note",
+    "aiLabel": "Written by AI, checked by {clinician}",
+    "aiBody": "An AI tool listened to your visit and wrote this note. {clinician} checked it.",
+    "why": "You know best what you said, so please tell us if anything is wrong before it goes into your medical record.",
+    "how": "Tap any sentence to see what was said in the visit. You only need to mark things that are wrong, missing, or unclear.",
+    "confidenceSwitch": "Show where the AI was less sure",
+    "confidenceLegend": "Sentences marked like this are ones the AI was less sure about. They may still be right.",
+    "lessSure": "AI was less sure",
+    "missingButton": "Something missing here?",
+    "footerCount": "You marked {count} so far",
+    "footerNone": "Nothing marked yet",
+    "finishLater": "Finish later",
+    "reviewAndSend": "Review and send"
+  },
+  "sheet": {
+    "sentenceTitle": "Check this sentence",
+    "sectionTitle": "Add something missing",
+    "sectionPrompt": "What should be added to “{section}”?",
+    "close": "Close",
+    "lessSureNote": "The AI was less sure about this sentence. That does not mean it is wrong.",
+    "sourceHeading": "Where did this come from?",
+    "sourceDirect": "What was said in your visit",
+    "sourceClosest": "Closest part of the conversation",
+    "showAll": "Show the whole conversation",
+    "hideAll": "Hide the whole conversation",
+    "question": "Is this sentence right?",
+    "saved": "Saved",
+    "clear": "Clear my answer",
+    "done": "Done",
+    "save": "Save",
+    "cancel": "Cancel",
+    "reasonLabelWrong": "What is wrong? (optional)",
+    "reasonLabelMissing": "What is missing? (optional)",
+    "textLabelWrong": "Tell us what is right, in your own words (optional)",
+    "textLabelMissing": "Tell us what is missing, in your own words (optional)",
+    "textLabelUnclear": "What would you like explained? (optional)"
+  },
+  "flags": {
+    "correct": { "option": "This is correct", "status": "You said: correct" },
+    "wrong": { "option": "This is wrong", "status": "You said: wrong" },
+    "missing": { "option": "Something is missing", "status": "You said: something missing" },
+    "unclear": { "option": "I don't understand this", "status": "You asked about this" }
+  },
+  "quickReasons": {
+    "wrong": ["Wrong number or amount", "Wrong side of the body", "I didn't say this", "Not how I described it", "Something else"],
+    "missing": ["Something I told the doctor", "A symptom", "A medicine", "Something about the plan"]
+  },
+  "summary": {
+    "title": "Check your notes before sending",
+    "intro": "Here is everything you marked. You can change or remove anything.",
+    "issues": "Things to fix or explain",
+    "confirmed": "Sentences you said are correct",
+    "none": "You did not mark anything. You can send “The note looks right to me,” or go back and keep reading.",
+    "original": "The note says",
+    "section": "Section",
+    "yourWords": "Your words",
+    "reason": "Reason",
+    "edit": "Change",
+    "remove": "Remove",
+    "removed": "Removed",
+    "messageLabel": "Message to {clinician} (optional)",
+    "messageHint": "For example, a question you have.",
+    "send": "Send to {clinician}",
+    "sendNone": "Send: the note looks right to me",
+    "back": "Back to my note"
+  },
+  "sent": {
+    "title": "Sent. Thank you!",
+    "body": "{clinician} will look at your notes before the note goes into your medical record. You will get a message when it is done.",
+    "urgent": "If you have a question about your care, call the clinic. If you think you have an emergency, call 911.",
+    "back": "Back to messages"
+  },
+  "clinician": {
+    "title": "Patient corrections",
+    "intro": "The patient reviewed the AI-drafted note. Review each item before you sign.",
+    "noneYet": "The patient has not sent corrections yet.",
+    "loadExample": "Load example corrections (demo)",
+    "patientMessage": "Message from patient",
+    "confirmedCount": "Patient confirmed {count} sentences as correct.",
+    "original": "AI-drafted sentence",
+    "patientSays": "Patient's correction",
+    "transcript": "Transcript excerpt",
+    "accept": "Accept",
+    "edit": "Edit",
+    "decline": "Decline",
+    "declineReasonLabel": "Reason for declining (required)",
+    "declineReasons": ["Matches what was said in the visit", "Clinical finding, not patient-reported", "Will discuss at next visit", "Other"],
+    "declineOtherLabel": "Short reason",
+    "confirmDecline": "Decline correction",
+    "saveEdit": "Save edited sentence",
+    "editLabel": "Final sentence for the note",
+    "change": "Change decision",
+    "updatedNote": "Updated note preview",
+    "signed": "Sign note"
+  }
+}

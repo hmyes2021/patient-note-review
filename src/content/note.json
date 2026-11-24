@@ -1,0 +1,65 @@
+{
+  "_comment": "confidence: 'high' (no marker) or 'low' (shows the 'AI was less sure' marker). sourceMatch: 'direct', or 'closest' when the scribe linked the nearest turn because nothing matched. Errors are NOT marked here; see answer-key.json.",
+  "title": "Visit note",
+  "sections": [
+    {
+      "id": "reason",
+      "heading": "Reason for visit",
+      "sentences": [
+        { "id": "s1", "text": "You came in for a follow-up visit for your long-term lower back pain.", "sourceTurns": ["t1", "t2"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s2", "text": "You said your pain has been worse this past month.", "sourceTurns": ["t2"], "sourceMatch": "direct", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "told",
+      "heading": "What you told us",
+      "sentences": [
+        { "id": "s3", "text": "You described your pain as a dull ache, about 4 out of 10 on most days.", "sourceTurns": ["t3", "t4"], "sourceMatch": "direct", "confidence": "low" },
+        { "id": "s4", "text": "The pain goes down your right leg, mostly after sitting for about an hour.", "sourceTurns": ["t2", "t8"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s5", "text": "You had to leave work early two times this month.", "sourceTurns": ["t6"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s6", "text": "You wake up 3 to 4 times a night because of pain, and you often feel tired.", "sourceTurns": ["t10"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s7", "text": "You said a heating pad and stretching before bed help you sleep.", "sourceTurns": ["t11", "t12"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s8", "text": "You have had no weakness, trouble walking, or bladder or bowel problems.", "sourceTurns": ["t15", "t16"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s9", "text": "You go to physical therapy once a week and have gone for about 6 to 7 weeks. The core exercises help.", "sourceTurns": ["t24"], "sourceMatch": "direct", "confidence": "low" },
+        { "id": "s10", "text": "You do your home exercises 3 days a week.", "sourceTurns": ["t24"], "sourceMatch": "direct", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "found",
+      "heading": "What we found",
+      "sentences": [
+        { "id": "s11", "text": "When Dr. Lee raised your left leg, you felt pain down the back of the leg.", "sourceTurns": ["t25", "t26"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s12", "text": "Your reflexes and strength were normal.", "sourceTurns": ["t27"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s13", "text": "Your MRI from last year showed a bulging disc in your lower back.", "sourceTurns": ["t29"], "sourceMatch": "closest", "confidence": "high" },
+        { "id": "s14", "text": "These findings point to an irritated nerve in your lower back.", "sourceTurns": ["t27"], "sourceMatch": "direct", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "meds",
+      "heading": "Medications",
+      "sentences": [
+        { "id": "s15", "text": "Gabapentin: increased to 600 mg three times a day.", "sourceTurns": ["t27"], "sourceMatch": "direct", "confidence": "low" },
+        { "id": "s16", "text": "Meloxicam 15 mg once a day with breakfast. No change.", "sourceTurns": ["t19", "t20"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s17", "text": "Acetaminophen (Tylenol) as needed in the evening, about 2 to 3 times a week. No change.", "sourceTurns": ["t20"], "sourceMatch": "direct", "confidence": "low" },
+        { "id": "s18", "text": "Gabapentin makes you a little dizzy in the morning, and it goes away in about an hour.", "sourceTurns": ["t22"], "sourceMatch": "direct", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "plan",
+      "heading": "Plan",
+      "sentences": [
+        { "id": "s19", "text": "Referral to Dr. Patel at the Spine Center for an evaluation. They may order an MRI.", "sourceTurns": ["t29"], "sourceMatch": "direct", "confidence": "low" },
+        { "id": "s20", "text": "Keep going to physical therapy once a week and keep doing your home exercises.", "sourceTurns": ["t31"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s21", "text": "Call us if the dizziness gets worse or you feel unsteady.", "sourceTurns": ["t29"], "sourceMatch": "direct", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "next",
+      "heading": "Next steps",
+      "sentences": [
+        { "id": "s22", "text": "Your next visit is in 6 weeks, on January 5, 2027.", "sourceTurns": ["t31"], "sourceMatch": "direct", "confidence": "high" },
+        { "id": "s23", "text": "Call sooner if your symptoms spread or you notice any weakness.", "sourceTurns": ["t31"], "sourceMatch": "direct", "confidence": "high" }
+      ]
+    }
+  ]
+}

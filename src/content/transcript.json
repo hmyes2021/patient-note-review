@@ -1,0 +1,41 @@
+{
+  "_comment": "Each turn needs a unique id. note.json links sentences to these ids with sourceTurns.",
+  "speakers": {
+    "clinician": "Dr. Lee",
+    "patient": "Maria Santos"
+  },
+  "turns": [
+    { "id": "t1", "speaker": "clinician", "text": "Hi Maria, good to see you again. How have things been since your last visit in October?" },
+    { "id": "t2", "speaker": "patient", "text": "Honestly, it's been a rough month. The pain in my lower back has been worse, and it's going down my left leg more." },
+    { "id": "t3", "speaker": "clinician", "text": "I'm sorry to hear that. On a scale of 0 to 10, where has your pain been most days?" },
+    { "id": "t4", "speaker": "patient", "text": "Most days it's about a 6. On bad days it's an 8. It's a sharp, stabbing pain, not just an ache." },
+    { "id": "t5", "speaker": "clinician", "text": "How many bad days would you say you've had this past month?" },
+    { "id": "t6", "speaker": "patient", "text": "Maybe eight or nine. Two of those days I had to leave work early." },
+    { "id": "t7", "speaker": "clinician", "text": "You're at the school district office, right? Is it the sitting?" },
+    { "id": "t8", "speaker": "patient", "text": "Yes, I'm at a desk all day doing payroll. After about an hour of sitting, it starts burning down my leg." },
+    { "id": "t9", "speaker": "clinician", "text": "And how are you sleeping?" },
+    { "id": "t10", "speaker": "patient", "text": "Not good. I wake up three or four times a night because of the pain. I'm tired all the time." },
+    { "id": "t11", "speaker": "clinician", "text": "Something a lot of my patients find helpful is a heating pad for 15 to 20 minutes and some gentle stretching before bed. Have you tried that?" },
+    { "id": "t12", "speaker": "patient", "text": "No, I haven't. I can try it." },
+    { "id": "t13", "speaker": "clinician", "text": "Anything new since last time? Any numbness or tingling?" },
+    { "id": "t14", "speaker": "patient", "text": "Actually, yes. For about two weeks my left foot has been tingling, mostly in the toes. It comes and goes." },
+    { "id": "t15", "speaker": "clinician", "text": "Thank you for telling me. Any weakness, trouble walking, or problems with your bladder or bowels?" },
+    { "id": "t16", "speaker": "patient", "text": "No, nothing like that. Just the tingling." },
+    { "id": "t17", "speaker": "clinician", "text": "Good. Let's go over your medicines. You're taking gabapentin 300 milligrams three times a day?" },
+    { "id": "t18", "speaker": "patient", "text": "Yes. Morning, afternoon, and bedtime." },
+    { "id": "t19", "speaker": "clinician", "text": "And meloxicam 15 milligrams once a day?" },
+    { "id": "t20", "speaker": "patient", "text": "Yes, with breakfast. And sometimes Tylenol in the evening, maybe two or three times a week." },
+    { "id": "t21", "speaker": "clinician", "text": "Any side effects? Dizziness, upset stomach?" },
+    { "id": "t22", "speaker": "patient", "text": "I get a little dizzy in the morning from the gabapentin, but it goes away after about an hour." },
+    { "id": "t23", "speaker": "clinician", "text": "How is physical therapy going?" },
+    { "id": "t24", "speaker": "patient", "text": "I go once a week, with Kevin at Riverside PT. It's been six weeks… maybe seven. The core exercises help. I do them at home three days a week." },
+    { "id": "t25", "speaker": "clinician", "text": "That's great, keep that up. Let me check your back and legs. When I raise your left leg like this, does that bring on the pain?" },
+    { "id": "t26", "speaker": "patient", "text": "Yes, that's it. It shoots down the back of my leg." },
+    { "id": "t27", "speaker": "clinician", "text": "Your reflexes and strength look normal, which is good. Pain with the leg raise on the left points to an irritated nerve in your lower back. Here's my plan. First, I'd like to raise your bedtime gabapentin to 600 milligrams. Keep taking 300 in the morning and afternoon. That may help the nerve pain and your sleep." },
+    { "id": "t28", "speaker": "patient", "text": "Okay. Will that make me more dizzy?" },
+    { "id": "t29", "speaker": "clinician", "text": "It might a little at first, which is why we're adding it at bedtime. If the dizziness gets worse or you feel unsteady, call us. Second, because of the new tingling, I'm referring you to Dr. Patel at the Spine Center for an evaluation. They may want an MRI." },
+    { "id": "t30", "speaker": "patient", "text": "Okay. Should I keep going to PT?" },
+    { "id": "t31", "speaker": "clinician", "text": "Yes, keep PT once a week and your home exercises. Let's see you back in six weeks, on January 5th. Call sooner if the tingling spreads or you notice any weakness." },
+    { "id": "t32", "speaker": "patient", "text": "January 5th. Okay, thank you, Dr. Lee." }
+  ]
+}
