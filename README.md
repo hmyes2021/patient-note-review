@@ -79,20 +79,11 @@ Everything lives in `src/content/`. Edit, save, and the dev server reloads. If i
 | `answer-key.json` | Researcher only. The seeded errors (`target.sentenceId`, or `target.sectionId` for omissions), which answers count as found (`foundWhen`), omission `keywords`, and the "less sure but correct" sentences |
 | `ui-text.json` | All wording: buttons, quick reasons, decline reasons, help text. `{clinician}`, `{visitDate}`, `{deadline}`, `{minutes}` and `{count}` are filled in automatically |
 
-### Seeded errors in the default scenario
+### Seeded errors
 
-| Id | Type | Where | AI marked "less sure"? |
-|---|---|---|---|
-| E1 | Omission: new left-foot tingling (t14) | "What you told us" (no sentence) | n/a |
-| E2 | Hallucination: "Your MRI from last year…" | s13 | No |
-| E3 | Misattribution: heating pad was Dr. Lee's suggestion | s7 | No |
-| E4 | Wrong dose: gabapentin 600 mg three times a day (only the bedtime dose is 600) | s15 | **Yes** |
-| E5 | Wrong side: "right leg" (it's the left) | s4 | No |
-| E6 | Softened: "dull ache, about 4/10" (she said 6, 8 on bad days, stabbing) | s3 | **Yes** |
+The default scenario plants a small set of errors (omissions, hallucinations, misattributions, wrong doses and wrong details) in the note, and marks some correct sentences "AI was less sure" so you can measure over-reliance on the marker. They are listed in `answer-key.json`, which is for researchers only. They aren't described here so that participants who find this repository don't see the answers.
 
-Less sure but **correct**: s9 (PT 6–7 weeks), s17 (Tylenol), s19 (referral). That gives 5 markers, 2 of them errors and 3 correct, while 3 errors appear with no marker. This lets you measure over-reliance on the marker.
-
-**Scoring.** A sentence error counts as **found** if the participant marks that sentence "wrong" or "missing", and as **noticed** if they mark it "I don't understand". The omission counts as found if they add a "missing" note to that section or a sentence in it, or a "missing" note anywhere whose text contains a keyword (tingl, numb, foot, toe…).
+**Scoring.** A sentence error counts as **found** if the participant marks that sentence "wrong" or "missing", and as **noticed** if they mark it "I don't understand". The omission counts as found if they add a "missing" note to that section or a sentence in it, or a "missing" note anywhere whose text contains a keyword.
 
 ## Study mode
 
